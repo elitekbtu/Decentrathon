@@ -1,0 +1,14 @@
+# backend/requirements.txt
+
+fastapi
+uvicorn[standard]
+SQLAlchemy==1.4.46
+asyncpg
+pydantic
+python-dotenv
+alembic
+passlib[bcrypt]
+python-jose
+pytest
+pytest-asyncio
+httpx
